@@ -1,0 +1,17 @@
+.nav-link1{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: gray;
+    text-decoration: none;
+    font-weight: 400;
+    font-size:medium;
+}
+.nav-link1:hover{
+    color: black;
+}
+.nav-btn{
+    background-color: rgb(31, 199, 212);
+    border-color: transparent;
+    border-radius: 30px;
+    color:white;
+}

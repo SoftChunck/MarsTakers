@@ -1,0 +1,27 @@
+.statistic{
+    background-color: black;
+    color: white;
+    box-shadow: red;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 8px -10px white, inset -10px -10px 8px -10px white;
+    transform: rotateZ(-30deg);
+    border: solid black;
+}
+.statistic h3{
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.heading-p{
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: rgb(31, 199, 212);
+    text-align: center;
+}
+.perc-p{
+    color: #03a66d;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,25 @@
+.Refferals{
+    background: linear-gradient(111.68deg,rgb(255, 255, 255) 22%, rgb(73, 0, 190) 100%);
+    border-radius: 30px;
+    padding: 1.5rem;
+    box-shadow: inset 10px 10px 8px -10px #ccc, inset -10px -10px 8px -10px #ffff;
+}
+.get-link{
+    border: 9px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 1rem;
+    box-shadow: 2px 2px 15px 0 rgb(64 58 58 / 40%);
+    border-color: #f7f7f7;
+}
+.btn-refferal{
+    background-color: rgb(31, 199, 212);
+    color: white;
+    border-radius: 20px;
+    border: 0;
+}
+.width-full{
+    width: 100%;
+}
+.inviting-people{
+    color:white;
+}

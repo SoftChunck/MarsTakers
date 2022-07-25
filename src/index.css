@@ -1,0 +1,13 @@
+.nav-link1{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size:large;
+}
+.nav-btn{
+    background-color: transparent;
+    border: solid;
+    border:2px solid #fd562a;
+    border-radius: 40px;
+}

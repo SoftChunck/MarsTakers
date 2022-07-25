@@ -1,0 +1,39 @@
+.Earning{
+    background: rgb(60, 23, 134);
+    color:white;
+    border-radius: 20px;
+}
+.head-p{   
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+.earning-apr{
+    background-color: white;    
+    border-radius: 20px;
+    color: black;
+}
+.mars_earned{
+    color: rgb(31, 199, 212);;
+}
+.btn-earning{    
+    background: rgb(31, 199, 212);
+    border-radius: 15px; 
+    border: 0;
+    color: white;
+}
+.input-earning{
+    width: 100%;
+}
+.btnEnd-earning{
+    background-color: rgb(31, 199, 212);
+    color: white;
+    border-radius: 15px;
+    border: 0;
+}
+.p-buttom{    
+    background: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}

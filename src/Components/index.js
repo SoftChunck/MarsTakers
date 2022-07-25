@@ -1,2 +1,2 @@
-export {default as earning} from './earning/earning';
-export {default as statistic} from './statistic/statistic';
+export {default as Earning} from './Earning/Earning';
+export {default as Statistic} from './Statistic/Statistic';
