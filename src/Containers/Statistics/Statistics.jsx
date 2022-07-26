@@ -14,10 +14,10 @@ const Statistics = () =>{
     
     ])
     return(
-        <div className="justify-content-center d-flex">
+        <div className="justify-content-center d-flex container-fluid">
             <div className="Statistics justify-content-center">
                 <h1 className="text-center">Statistics</h1>
-                <div className="statistic-cards py-5 row gap-4 justify-content-center ">
+                <div className="statistic-cards py-5 row gy-5 justify-content-center">
                     <Statistic data={statistic_Data[0]}></Statistic>
                     <Statistic data={statistic_Data[1]}></Statistic>
                     <Statistic data={statistic_Data[2]}></Statistic>

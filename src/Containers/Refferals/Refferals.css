@@ -23,3 +23,7 @@
 .inviting-people{
     color:white;
 }
+.list-p{
+    list-style: none;
+    text-align: start;
+}

@@ -4,8 +4,9 @@
     box-shadow: red;
     border-radius: 20px;
     box-shadow: inset 10px 10px 8px -10px white, inset -10px -10px 8px -10px white;
-    transform: rotateZ(-30deg);
+    transform: rotateZ(-14deg);
     border: solid black;
+    height: 100%;
 }
 .statistic h3{
     letter-spacing: -0.02em;

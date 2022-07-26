@@ -21,7 +21,7 @@ const Navbar = () =>{
         })
     });
     return (
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light container-fluid">
             <div className="container">
                     <img src="assets/images/Logo.png" className="navbar-brand col-1"/>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

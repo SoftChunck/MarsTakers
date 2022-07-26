@@ -6,15 +6,12 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <div className='widthh98'>        
-        <Header></Header>
-        <Statistics></Statistics>
-        <Earnings></Earnings>
-        <Refferals></Refferals>
-      </div>
-        <Footer></Footer>
+      <Header></Header>
+      <Statistics></Statistics>
+      <Earnings></Earnings>
+      <Refferals></Refferals>
+      <Footer></Footer>
     </div>
   );
 }
-
 export default App;
