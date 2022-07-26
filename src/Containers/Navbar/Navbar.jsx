@@ -30,22 +30,22 @@ const Navbar = () =>{
                     <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
                     <ul className="navbar-nav  text-start ps-5">
                         <li className="nav-item">
-                        <a className="nav-link1 active" aria-current="page" href="./">Home</a>
+                        <a className="nav-link1 active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link1" href="#">Earn</a>
+                        <a className="nav-link1" href="#Earnings">Earn</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link1" href="#">Stake</a>
+                        <a className="nav-link1" href="#Earnings">Stake</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link1" href="#">Swap</a>
+                        <a className="nav-link1" href="#swap">Swap</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link1" href="#">Referral</a>
+                        <a className="nav-link1" href="#Refferals">Referral</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link1" href="#">Contract</a>
+                        <a className="nav-link1" href="https://bscscan.com/address/0x91749805F8B29016861dC174e889BC9FA6aE50c1">Contract</a>
                         </li>
                     </ul>                    
                     <button className="nav-link1 ms-5 nav-btn" href="#">Connect Wallet</button>

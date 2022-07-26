@@ -22,7 +22,7 @@ const Earning = (props) =>{
                         </div>
                         <button className="btn-earning px-5 py-3">Claim</button>
                     </div>
-                    <input type="text" value="0" className=" fs-5 py-3 px-4 input-earning mt-3"/>
+                    <input type="number" placeholder="0" className=" fs-5 py-3 px-4 input-earning mt-3"/>
                     <div className="row justify-content-center">
                         {props.data.stack &&
                             <button className="btnEnd-earning px-2 py-3 my-3 mx-2 col-10">Stake</button>

@@ -3,7 +3,7 @@ import './Refferals.css';
 
 const Refferals = () =>{
     return(
-        <div className="row justify-content-center container-fluid m-0 p-0">
+        <div className="row justify-content-center container-fluid m-0 p-0" id="Refferals">
             <div className="Refferals col-md-10">
                 <h1 className="h3 text-center mb-5 pb-5">Refferal Link</h1>
                 <div className="row justify-content-around align-items-center">

@@ -9,11 +9,11 @@ const Earnings = () =>{
         {title:'STAKE M̷̷ARS',headingp1:'Stake M̷̷ARS to earn more M̷̷ARS',headingp2:'You can stake as many times as you want',headingp3:'You can unstake your M̷̷ARS after 7 days',apr:'2190%',my_stake:'0.0000 M̷̷ARS',total_staked:'0.2200 M̷̷ARS',mars_earned:'0.0000',unstake:'true',enable:'true',walletBallance:'0.0000 M̷̷ARS'}
     ])
     return(
-        <div className="justify-content-center row my-5 contianer-fluid"> 
+        <div className="justify-content-center row my-5 contianer-fluid" id="Earnings"> 
             <div className="Earnings row col-md-10 justify-content-around gy-4">
                 <Earning data={earning_data[0]}></Earning>
                 <Earning data={earning_data[1]}></Earning>
-                <div className="col-lg-4 col-md-5 ps-4">
+                <div className="col-lg-4 col-md-5 ps-4" id="swap">
                     <div className="Earning  p-0">
                         <div className="p-3">
                             <h4 className="pb-3">SWAP NOW</h4>
@@ -31,7 +31,7 @@ const Earnings = () =>{
                                     <h5>0.0000</h5>
                                 </div>
                             </div>
-                            <input type="text" value="0" className=" fs-5 py-3 px-4 input-earning mt-3"/>
+                            <input type="number" placeholder="0" className=" fs-5 py-3 px-4 input-earning mt-3"/>
                             <div className="row justify-content-center">
                                 <button className="btnEnd-earning py-3 my-3 col-11">Enable</button>  
                             </div>       
