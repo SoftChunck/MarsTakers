@@ -12,11 +12,13 @@ const Navbar = () =>{
             {
                 show = true;
                 navlist.classList.add('show');
+                navlist.setAttribute('style','display:flex; flex-direction:column');
             }
             else
             {
                 show = false;
                 navlist.classList.remove('show');
+                navlist.setAttribute('style','display:none;');
             }
         })
     });
@@ -27,8 +29,8 @@ const Navbar = () =>{
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <FaBars />
                     </button>
-                    <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul className="navbar-nav  text-start ps-5">
+                    <div className="collapse navbar-collapse justify-content-between nav-list" id="navbarNav">
+                    <ul className="navbar-nav  text-center">
                         <li className="nav-item">
                         <a className="nav-link1 active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -48,7 +50,7 @@ const Navbar = () =>{
                         <a className="nav-link1" href="https://bscscan.com/address/0x91749805F8B29016861dC174e889BC9FA6aE50c1">Contract</a>
                         </li>
                     </ul>                    
-                    <button className="nav-link1 ms-5 nav-btn" href="#">Connect Wallet</button>
+                    <button className="nav-link1 m-0 nav-btn" href="#">Connect Wallet</button>
                     </div>
                 </div>
             </nav>

@@ -13,7 +13,7 @@ const Earnings = () =>{
             <div className="Earnings row col-md-10 justify-content-around gy-4">
                 <Earning data={earning_data[0]}></Earning>
                 <Earning data={earning_data[1]}></Earning>
-                <div className="col-lg-4 col-md-5 ps-4" id="swap">
+                <div className="col-lg-4 col-md-5 px-2" id="swap">
                     <div className="Earning  p-0">
                         <div className="p-3">
                             <h4 className="pb-3">SWAP NOW</h4>

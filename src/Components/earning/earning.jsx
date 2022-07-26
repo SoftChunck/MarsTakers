@@ -3,7 +3,7 @@ import './Earning.css';
 
 const Earning = (props) =>{
     return(
-        <div className=" col-lg-4 col-md-5 ps-4">
+        <div className=" col-lg-4 col-md-5 px-2">
             <div className="Earning p-0">
                 <div className="p-3">
                     <h4 className="pb-3">{props.data.title}</h4>
