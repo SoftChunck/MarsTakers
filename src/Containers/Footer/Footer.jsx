@@ -10,7 +10,7 @@ const Footer = () =>{
                 <img src="assets/images/bscscan.png" className="img-footer ms-4 "/>
                 <img src="assets/images/dapp-logo.png" className="img-footer ms-4 "/>
             </div>
-            <h3 className="text-center fs-6 pb-4">© 2022 MARSTAKERS. ALL RIGHTS RESERVED</h3>
+            <h3 className="text-center fs-6">© 2022 MARSTAKERS. ALL RIGHTS RESERVED</h3>
         </div>
     );
 }
